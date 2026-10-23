@@ -7,6 +7,30 @@ Nangram is an independent Android customization module for Instagram, accompanie
 
 ---
 
+## See Nangram in action
+
+Real screenshots from the English interface, using **@tqmane78_**.
+
+### Liquid Glass navigation
+
+A floating glass bottom bar with Instagram’s familiar icons and actions. Enable it in Nangram’s interface settings for a translucent, monochrome look.
+
+<img src="assets/screenshots/en/liquid-glass.png" alt="Liquid Glass navigation on the tqmane78_ Instagram profile" width="320">
+
+### Profile Analyzer
+
+See mutual follows, accounts that do not follow you back, and followers you do not follow. Compare saved snapshots on your device to track changes over time, without entering your password again. Your first completed scan becomes the baseline for later comparisons.
+
+<img src="assets/screenshots/en/profile-analyzer.png" alt="Profile Analyzer summary for tqmane78_ in English" width="320">
+
+### A companion that stays in sync
+
+Find settings quickly and keep up to six shortcuts on your Nangram home screen. Supported settings sync both ways with Instagram for the active account and settings profile while the apps are running; some changes need an Instagram restart.
+
+<img src="assets/screenshots/en/companion.png" alt="English Nangram companion dashboard showing Connected and Ready" width="320">
+
+Folder permissions, lock credentials, saved media, and history are not copied between the apps. Profile Analyzer compares fetched lists; it does not identify profile visitors or prove that someone blocked you.
+
 ## Documentation / ドキュメント
 
 | Language / 言語 | README | User Guide / ユーザーガイド |

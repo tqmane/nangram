@@ -16,7 +16,7 @@ Verify your device environment satisfies these prerequisites before proceeding:
 * **Framework Requirement**: Requires an Android module environment supporting **libxposed API 102** as a necessary setup requirement.
 * **Module Manager**: Must support scoping modules to specific applications. Not all managers or patching utilities work.
 * **Patch-Embedded Installations**: If using an environment that patches the module directly into an APK, you must re-patch and re-install after module updates according to your manager's workflow.
-* **Compatibility**: Instagram version `453.0.0.0.45` startup and settings have been checked, though not all features are verified. Version `452.0.0.0.7` is not verified on device. Refer to release notes for compatibility updates.
+* **Supported Instagram version**: `453.0.0.0.45`. Check the release notes for updates.
 * **Signing Keys & Data**: Updates require APKs signed with the same signing key. Local data belongs to each app separately: uninstalling Nangram removes its own companion data, while uninstalling Instagram removes data stored within Instagram. Always back up important data and verify your signing key before any uninstallation; do not casually uninstall either app.
 
 ---
@@ -79,6 +79,11 @@ Features can be enabled individually when supported. Availability may vary by In
 * **Expired Media URLs**: If a media link expires, reopen the post in Instagram to refresh it. Unavailable or deleted media cannot be recovered.
 * **Profile Bulk Downloads**: Download media from profiles in batches using preset counts, custom counts, or all. Downloads process step by step; if stopped by connection loss, rate limits, or storage limits, already queued items remain.
 * **Media Library**: Organize downloads with name search, type filters, folders, and favorites. External copies exported to galleries or shared outside remain intact during library cleanup.
+
+### Profile Analyzer and Liquid Glass
+Open **Profile Analyzer** from Nangram settings inside Instagram. Run a scan to see mutual follows, accounts you follow that do not follow back, and followers you do not follow. The first completed scan becomes the baseline; later scans show changes. Scans require at least 15 minutes between runs and support fewer than 13,000 followers and following combined.
+
+To use the floating glass navigation bar, enable **Glass bottom tabs** in Nangram’s interface settings. It keeps Instagram’s familiar tab icons and actions. Rendering can vary by device.
 
 ### Profile Watchlists & Appearance
 * **Watchlists**: Track bio, avatar, and follower changes while Instagram runs in the foreground under the active account.
